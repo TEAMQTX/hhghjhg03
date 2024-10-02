@@ -1,0 +1,78 @@
+body {
+    background-color: #000;
+    color: #FF0000; /* Updated */
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('/assets/bg.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+.chatbot-container, .auth-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    width: 80%;
+    max-width: 600px;
+    display: none; /* Hidden initially */
+}
+
+#chat {
+    height: 300px;
+    overflow: auto;
+    border: 1px solid #FF0000; /* Updated */
+    padding: 15px;
+    background-color: #111;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    background-color: #111;
+    color: #FF0000; /* Updated */
+    border: 1px solid #FF0000; /* Updated */
+}
+
+.btn-submit, .btn-auth {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF0000; /* Updated */
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FF0000; /* Updated */
+}
+
+.modal-header, .modal-footer {
+    border: none;
+}
+
+.modal-header h2 {
+    margin: 0;
+}
+
+.modal-footer .btn-close {
+    background-color: #333;
+    color: #FF0000; /* Updated */
+    border: none;
+}
